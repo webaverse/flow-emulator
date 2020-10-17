@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "flow emulator start --persist 2>&1 >/dev/null &",
+    "dev": "flow emulator start --persist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
